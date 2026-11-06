@@ -1,0 +1,230 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  background-size: cover;
+  min-height: 90vh;
+}
+.jobs-content {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  max-width: 1180px;
+}
+
+@media screen and(min-width: 768px) {
+  .jobs-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92%;
+    padding-bottom: 100px;
+  }
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 70vh;
+}
+@media screen and(min-width: 768px) {
+  .loader-container {
+    width: 100%;
+  }
+}
+.jobs-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  margin-top: 48px;
+  flex-grow: 1;
+}
+@media screen and(min-width: 768px) {
+  .jobs-error-view-container {
+    width: 70%;
+    margin-top: 70px;
+    padding-bottom: 0px;
+  }
+}
+
+.jobs-failure-img {
+  height: 200px;
+  width: 250px;
+}
+@media screen and(min-width: 768px) {
+  .jobs-failure-img {
+    height: 350px;
+    width: 400px;
+  }
+}
+.jobs-failure-heading-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.3;
+}
+@media screen and(min-width: 768px) {
+  .jobs-failure-heading-text {
+    font-size: 30px;
+  }
+}
+.jobs-falure-description {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 90%;
+  max-width: 388px;
+  margin-top: 0;
+}
+@media screen and(min-width: 768px) {
+  .jobs-failure-heading-text {
+    font-size: 16px;
+  }
+}
+.jobs-falure-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+.no-jobs-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 64px;
+  margin-top: 48px;
+}
+@media screen and(min-width: 768px) {
+  .no-jobs-view {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
+.no-jobs-img {
+  height: 180px;
+  width: 250px;
+}
+@media screen and(min-width: 768px) {
+  .no-jobs-img {
+    height: 315px;
+    width: 459px;
+  }
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  width: 90%;
+  line-height: 1.3;
+  text-align: center;
+}
+@media screen and(min-width: 768px) {
+  .no-jobs-heading {
+    margin-top: 32px;
+    font-size: 42px;
+  }
+}
+.no-jobs-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  max-width: 288px;
+  line-height: 1.3;
+}
+@media screen and(min-width: 768px) {
+  .no-jobs-description {
+    margin-top: 12px;
+    font-size: 14px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+@media screen and(min-width: 768px) {
+  .all-jobs-container {
+    width: 100%;
+  }
+}
+.jobs-list {
+  padding-left: 0;
+}
+.search-input-jobs-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media screen and(min-width: 768px) {
+  .search-input-jobs-list-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-grow: 1;
+    margin-top: 28px;
+    margin-left: 40px;
+  }
+}
+.search-input-desktop-container {
+  display: flex;
+  align-self: flex-start;
+  background-color: transparent;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #7e858e;
+}
+
+.search-input-desktop {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  width: 450px;
+}
+.search-button-container-desktop {
+  background-color: #7e858e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+
+  margin: 0px;
+}
+.search-icon-desktop {
+  height: 15px;
+  width: 15px;
+  color: #ffffff;
+}
+
+@media screen and(min-width: 768px) {
+  .search-input-desktop-container {
+    display: none;
+  }
+}
